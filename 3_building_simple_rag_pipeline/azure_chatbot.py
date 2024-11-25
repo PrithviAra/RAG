@@ -15,6 +15,8 @@ from langchain_community.document_loaders import BSHTMLLoader
 
 from langchain_openai import AzureOpenAI, AzureOpenAIEmbeddings
 
+print("i")
+
 # Configuration variables
 CHUNK_SIZE = 1000
 CHUNK_OVERLAP = 100
